@@ -1,0 +1,14 @@
+<form [formGroup]="loginForm" (ngSubmit)="submit()">
+  <div>
+    <label>メールアドレス</label><input type="text" formControlName="loginId" required>
+  </div>
+  <div>
+    <label>パスワード</label><input type="password" formControlName="password" required>
+  </div>
+  <div>
+      <span class="error" *ngIf="failure">ログイン情報が不正です。</span>
+  </div>
+  <div>
+    <button [disabled]="loginForm.invalid">ログイン</button>
+  </div>
+</form>

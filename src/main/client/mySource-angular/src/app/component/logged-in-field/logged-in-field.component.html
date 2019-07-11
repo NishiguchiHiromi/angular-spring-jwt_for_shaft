@@ -1,0 +1,23 @@
+<app-header></app-header>
+<div class="main">
+  <div class="ajax border">
+    <p>普通にajax</p>
+    <form #f="ngForm">
+      <input type="number" name="name" [(ngModel)]="number" />
+      <button (click)="square()">サーバーから2乗の値をもらう</button>
+      <br>
+      {{answer | async}}
+    </form>
+  </div>
+  <div class="component border">
+    <p>コンポーネント表示</p>
+    <button (click)="goto('hoge')">ほげ</button>
+    <router-outlet></router-outlet>
+  </div>
+  <div class="error border">
+    <p>いろいろなエラー</p>
+    <button (click)="throw()">クライアントエラー</button>
+    <button (click)="errorAjax()">サーバーエラー（ajax）</button>
+    <button (click)="gotoThymeleafPage()">サーバーエラー（location.href）</button>
+  </div>  
+</div>

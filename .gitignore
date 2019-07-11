@@ -1,0 +1,75 @@
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+/bin
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+/out/
+
+### VSCode ###
+/.vscode
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/src/main/client/mySource-angular/dist
+/src/main/client/mySource-angular/tmp
+/src/main/client/mySource-angular/out-tsc
+
+# dependencies
+/src/main/client/mySource-angular/node_modules
+
+# profiling files
+/src/main/client/mySource-angular/chrome-profiler-events.json
+/src/main/client/mySource-angular/speed-measure-plugin.json
+
+# IDEs and editors
+/src/main/client/mySource-angular/.idea
+/src/main/client/mySource-angular/.project
+/src/main/client/mySource-angular/.classpath
+/src/main/client/mySource-angular/.c9/
+/src/main/client/mySource-angular/*.launch
+/src/main/client/mySource-angular/.settings/
+/src/main/client/mySource-angular/*.sublime-workspace
+
+# IDE - VSCode
+/src/main/client/mySource-angular/.vscode/*
+/src/main/client/mySource-angular/!.vscode/settings.json
+/src/main/client/mySource-angular/!.vscode/tasks.json
+/src/main/client/mySource-angular/!.vscode/launch.json
+/src/main/client/mySource-angular/!.vscode/extensions.json
+
+# misc
+/src/main/client/mySource-angular/.sass-cache
+/src/main/client/mySource-angular/connect.lock
+/src/main/client/mySource-angular/coverage
+/src/main/client/mySource-angular/libpeerconnection.log
+/src/main/client/mySource-angular/npm-debug.log
+/src/main/client/mySource-angular/yarn-error.log
+/src/main/client/mySource-angular/testem.log
+/src/main/client/mySource-angular/typings
+
+# System Files
+/src/main/client/mySource-angular/.DS_Store
+/src/main/client/mySource-angular/Thumbs.db

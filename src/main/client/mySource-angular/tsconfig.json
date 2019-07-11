@@ -1,0 +1,33 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    // "strictNullChecks": true,
+    // "noImplicitAny": true,
+    // "noImplicitThis": true,
+    // "noImplicitReturns": true,
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+    "importHelpers": true,
+    "target": "es5",
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es6", "dom"],
+    "baseUrl": "src",
+    "paths": {
+      "@component/*": ["app/component/*"],
+      "@constant/*": ["app/constant/*"],
+      "@directive/*": ["app/directive/*"],
+      "@guard/*": ["app/guard/*"],
+      "@interface/*": ["app/interface/*"],
+      "@pipe/*": ["app/pipe/*"],
+      "@service/*": ["app/service/*"],
+      "@validator/*": ["app/validator/*"]
+    }
+  }
+}
